@@ -1,0 +1,32 @@
+# Build output
+/cfprobe
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+
+# Coverage / profiling
+coverage.*
+*.prof
+
+# Probe results and cached range snapshots
+/results/
+*.jsonl
+ranges.json
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Environment and local secrets
+.env
+.env.*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
